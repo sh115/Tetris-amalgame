@@ -7,7 +7,7 @@
 //
 
 let NumColumns = 10
-let NumRows = 20
+let NumRows = 25
 
 let StartingColumn = 4
 let StartingRow = 0

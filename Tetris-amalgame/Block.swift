@@ -23,7 +23,7 @@ enum BlockColor: Int, CustomStringConvertible {
     case .purple:
         return "purple"
     case .red:
-        return "red"
+        return "red1_40x40.png"
     case .teal:
         return "teal"
     case .yellow:
@@ -52,15 +52,15 @@ class Block: Hashable, CustomStringConvertible {
     var sprite: SKSpriteNode?
     
     var spriteName: String {
-    return color.description
+        return color.description
     }
     
     var hashValue: Int {
-    return self.column ^ self.row
+        return self.column ^ self.row
     }
     
     var description: String {
-    return "\(color) (\(column), \(row))"
+        return "\(color) (\(column), \(row))"
     }
     
     init(column:Int, row:Int, color:BlockColor) {
