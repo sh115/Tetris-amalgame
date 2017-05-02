@@ -12,23 +12,31 @@ let NumberOfColors: UInt32 = 6
 
 enum BlockColor: Int, CustomStringConvertible {
     
-    case blue = 0, orange, purple, red, teal, yellow
+    case blue = 0, orange, purple, red, green, yellow
     
     var spriteName: String {
+    var color_str = ""
     switch self {
     case .blue:
-        return "blue"
+        color_str =  "blue"
+        break
     case .orange:
-        return "orange"
+        color_str =  "orange"
+        break
     case .purple:
-        return "purple"
+        color_str = "purple"
+        break
     case .red:
-        return "red1_40x40.png"
-    case .teal:
-        return "teal"
+        color_str = "red"
+        break
+    case .green:
+        color_str = "green"
+        break
     case .yellow:
-        return "yellow"
+        color_str = "yellow"
+        break
         }
+        return color_str
     }
     
     var description: String {
@@ -38,6 +46,7 @@ enum BlockColor: Int, CustomStringConvertible {
     static func random() -> BlockColor {
         return BlockColor(rawValue:Int(arc4random_uniform(NumberOfColors)))!
     }
+    
 }
 
 class Block: Hashable, CustomStringConvertible {

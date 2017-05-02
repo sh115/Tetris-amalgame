@@ -15,7 +15,6 @@
 		B2D225681EB01D9200A9977E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D225591EB01D9200A9977E /* AppDelegate.swift */; };
 		B2D225691EB01D9200A9977E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2255A1EB01D9200A9977E /* GameScene.swift */; };
 		B2D2256A1EB01D9200A9977E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2255B1EB01D9200A9977E /* GameViewController.swift */; };
-		B2D2256B1EB01D9200A9977E /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = B2D2255C1EB01D9200A9977E /* Sprites.atlas */; };
 		B2D2256C1EB01D9200A9977E /* GameBoardArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2255D1EB01D9200A9977E /* GameBoardArray.swift */; };
 		B2D2256D1EB01D9200A9977E /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2255E1EB01D9200A9977E /* Block.swift */; };
 		B2D2256E1EB01D9200A9977E /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2255F1EB01D9200A9977E /* Shape.swift */; };
@@ -74,7 +73,6 @@
 		B2D225591EB01D9200A9977E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2D2255A1EB01D9200A9977E /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B2D2255B1EB01D9200A9977E /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		B2D2255C1EB01D9200A9977E /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		B2D2255D1EB01D9200A9977E /* GameBoardArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoardArray.swift; sourceTree = "<group>"; };
 		B2D2255E1EB01D9200A9977E /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		B2D2255F1EB01D9200A9977E /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 				B2D225591EB01D9200A9977E /* AppDelegate.swift */,
 				B2D2255A1EB01D9200A9977E /* GameScene.swift */,
 				B2D2255B1EB01D9200A9977E /* GameViewController.swift */,
-				B2D2255C1EB01D9200A9977E /* Sprites.atlas */,
 				B2D2255D1EB01D9200A9977E /* GameBoardArray.swift */,
 				B2D2255E1EB01D9200A9977E /* Block.swift */,
 				B2D2255F1EB01D9200A9977E /* Shape.swift */,
@@ -340,7 +337,6 @@
 				B2D2258F1EB01DE000A9977E /* whitebg@2x.png in Resources */,
 				B2D225851EB01DE000A9977E /* bomb.mp3 in Resources */,
 				B2D225331EB01D2A00A9977E /* Assets.xcassets in Resources */,
-				B2D2256B1EB01D9200A9977E /* Sprites.atlas in Resources */,
 				B2D225361EB01D2A00A9977E /* LaunchScreen.storyboard in Resources */,
 				B2D225881EB01DE000A9977E /* levelup.mp3 in Resources */,
 				B2D225861EB01DE000A9977E /* drop.mp3 in Resources */,
@@ -631,6 +627,7 @@
 				B2D225521EB01D2A00A9977E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2D225531EB01D2A00A9977E /* Build configuration list for PBXNativeTarget "Tetris-amalgameTests" */ = {
 			isa = XCConfigurationList;
@@ -639,6 +636,7 @@
 				B2D225551EB01D2A00A9977E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2D225561EB01D2A00A9977E /* Build configuration list for PBXNativeTarget "Tetris-amalgameUITests" */ = {
 			isa = XCConfigurationList;
@@ -647,6 +645,7 @@
 				B2D225581EB01D2A00A9977E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

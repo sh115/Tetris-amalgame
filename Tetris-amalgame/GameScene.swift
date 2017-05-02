@@ -92,6 +92,7 @@ class GameScene: SKScene {
             }
             let sprite = SKSpriteNode(texture: texture)
             sprite.position = pointForColumn(block.column, row:block.row - 2)
+            print(sprite.position)
             shapeLayer.addChild(sprite)
             block.sprite = sprite
             

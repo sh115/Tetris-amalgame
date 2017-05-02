@@ -12,7 +12,7 @@ let NumRows = 25
 let StartingColumn = 4
 let StartingRow = 0
 
-let PreviewColumn = 12
+let PreviewColumn = 11
 let PreviewRow = 1
 
 let PointsPerLine = 10
